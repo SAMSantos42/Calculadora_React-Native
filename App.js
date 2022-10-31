@@ -1,12 +1,12 @@
-import { StyleSheet , View } from 'react-native';
-import Title from './SRC/components/Title'
-import Main from './SRC/components/Main'
+import { StyleSheet, View } from "react-native";
+import Title from "./SRC/components/Title";
+import Main from "./SRC/components/Main";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Title/>
-      <Form/>
+      <Title />
+      <Form />
     </View>
   );
 }
@@ -14,7 +14,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e0e5e5',
-    paddingTop:80,
+    backgroundColor: "#e0e5e5",
+    paddingTop: 80,
   },
 });
